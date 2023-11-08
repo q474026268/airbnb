@@ -24,4 +24,7 @@ class HTTPRequest {
   }
 }
 
-export default new HTTPRequest(BASE_URL, TIMEOUT)
+// 创建实例
+const HTTPRequestInstance = new HTTPRequest(BASE_URL, TIMEOUT);
+
+export default HTTPRequestInstance;
