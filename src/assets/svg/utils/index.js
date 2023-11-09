@@ -1,6 +1,6 @@
-function styleStrToObject(str) {
+function styleStrToObject(styleStr) {
   const obj = {}
-  const s = str.toLowerCase.replace(/-(.)/g, function (m, g) {
+  const s = styleStr.toLowerCase().replace(/-(.)/g, function (m, g) {
     return g.toUpperCase();
   }).replace(/;\s?$/g, "").split(/:|;/g);
   for (var i = 0; i < s.length; i += 2) {

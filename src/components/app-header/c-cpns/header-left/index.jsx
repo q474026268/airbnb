@@ -1,11 +1,11 @@
 import React, { memo } from "react";
 import { LeftWrapper } from "./style";
-import logo from "@/assets/img/logo.png";
+import IconLogo from "@/assets/svg/icon_logo";
 
 export default memo(() => {
   return (
     <LeftWrapper>
-      <img src={logo} alt="" />
+      <IconLogo/>
     </LeftWrapper>
   );
 });
