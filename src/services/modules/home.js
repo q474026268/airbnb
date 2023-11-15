@@ -5,3 +5,10 @@ export function getHomeGoodPriceData(){
     url: "/home/goodprice"
   })
 }
+
+
+export function getHomeHignScoreData(){
+  return HTTPRequest.get({
+    url: "/home/highscore"
+  })
+}
